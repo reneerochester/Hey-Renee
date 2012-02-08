@@ -1,0 +1,17 @@
+/* line 1, ../../app/stylesheets/print.scss */
+body {
+  font-family: arial;
+  font-size: 12px;
+}
+/* line 6, ../../app/stylesheets/print.scss */
+body header.website {
+  display: none;
+}
+/* line 9, ../../app/stylesheets/print.scss */
+body li {
+  list-style-type: none;
+}
+/* line 13, ../../app/stylesheets/print.scss */
+body h3 {
+  color: #b23021;
+}
