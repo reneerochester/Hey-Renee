@@ -1397,6 +1397,23 @@ input.icon-googleplus {
   cursor: pointer;
 }
 
+/* line 89, ../../app/stylesheets/core/helpers/_bh_helpers.scss */
+.icon-github,
+.icon-github.active:hover {
+  background: url('/images/icon-github.png?1328664784') top left no-repeat transparent;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-indent: -9999px;
+  text-align: left;
+  border: 0;
+}
+
+/* line 92, ../../app/stylesheets/core/helpers/_bh_helpers.scss */
+input.icon-github {
+  cursor: pointer;
+}
+
 /* line 3, ../../app/stylesheets/partials/_forms.scss */
 section.contact .bh-describe {
   color: #b29ab4;
