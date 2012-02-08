@@ -1491,16 +1491,30 @@ section.contact .errors .inner-error .error-message {
   font-weight: bold;
 }
 
-/* line 3, ../../app/stylesheets/partials/_display.scss */
+/* line 1, ../../app/stylesheets/partials/_display.scss */
+ul {
+  list-style: none;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+/* line 16, ../../app/stylesheets/core/helpers/_bh_helpers.scss */
+ul li {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 6, ../../app/stylesheets/partials/_display.scss */
 #meet-and-greet .content {
   margin-top: 16px;
 }
-/* line 7, ../../app/stylesheets/partials/_display.scss */
+/* line 10, ../../app/stylesheets/partials/_display.scss */
 #meet-and-greet .title {
   font-family: Trebuchet MS;
 }
 
-/* line 11, ../../app/stylesheets/partials/_display.scss */
+/* line 14, ../../app/stylesheets/partials/_display.scss */
 .thumbnail {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -1514,7 +1528,7 @@ section.contact .errors .inner-error .error-message {
   -o-box-shadow: #bbbbbb 1px 1px 5px;
   box-shadow: #bbbbbb 1px 1px 5px;
 }
-/* line 15, ../../app/stylesheets/partials/_display.scss */
+/* line 18, ../../app/stylesheets/partials/_display.scss */
 .thumbnail .inner-thumbnail {
   overflow: hidden;
   border: 5px solid #fff;
@@ -1525,7 +1539,7 @@ section.contact .errors .inner-error .error-message {
   -khtml-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 19, ../../app/stylesheets/partials/_display.scss */
+/* line 22, ../../app/stylesheets/partials/_display.scss */
 .thumbnail .inner-thumbnail img {
   width: 100%;
   -moz-border-radius: 5px;
