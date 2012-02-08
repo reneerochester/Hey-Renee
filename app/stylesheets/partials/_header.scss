@@ -1,0 +1,28 @@
+header.website{
+  background:image-url('bg-html.jpg') #e2e2e2 center top;
+  
+  height:168px;
+  position:relative;
+  #logo {
+    background:image-url('logo.png') transparent no-repeat;
+    display:block;
+    margin: 0 auto;
+    width:image-width('logo.png');
+    text-indent:-9999px;
+    height:image-height('logo.png');
+    top: 52px;
+    position: relative;
+    left: 0px;
+  }
+  .social-media{
+    position:absolute;
+    right:40px;
+    top:60px;
+    @include list-float;
+    ul{
+      li{
+        margin-left:10px;
+      }
+    }
+  }
+}

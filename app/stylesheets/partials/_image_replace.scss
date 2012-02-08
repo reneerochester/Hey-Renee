@@ -1,0 +1,14 @@
+@include image-replace-auto('send_message');
+@include image-replace-auto('contact-icon');
+@include image-replace-auto('next-button');
+@include image-replace-auto('prev-button');
+
+.contact-icon{
+  width:auto;
+  background-position:top center;
+  margin:40px auto;
+}
+
+@include image-replace-auto('icon-linkedin');
+@include image-replace-auto('icon-twitter');
+@include image-replace-auto('icon-googleplus');

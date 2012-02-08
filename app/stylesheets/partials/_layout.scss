@@ -1,0 +1,101 @@
+html{
+  background:image-url('bg-html.jpg') center top no-repeat  #e2e2e2;
+  #container{
+    margin:0 auto;
+    width:940px;
+    background:image-url('bg-html.jpg') center top no-repeat  #e2e2e2;
+    #main{
+      margin-top:20px;
+      overflow:hidden;
+      section.main{
+        float:left;
+        width:640px;
+        .inner-section-main{
+          margin:0 40px;
+        }
+      }
+      aside.main{
+        float: left;
+        width: 300px;
+        .inner-aside-main{
+          margin:0 40px;
+        }
+      }
+    }
+  }
+}
+#after_main{
+  background:image-url('contact-bg.jpg') center no-repeat #564857;
+  .inner-after-main{
+    max-width:960px;
+    margin:0 auto;
+  }
+  section.contact{
+    margin-top:10px;
+
+    .inner-section-contact{
+      margin-left:330px;
+      padding-left:20px;
+
+    }
+    a{
+      font-size:14px;
+      display:inline;
+      text-decoration:none;
+      color:#b29ab4;
+    }
+    .title{
+      padding-top:45px;
+      padding-bottom:20px;
+      p{
+        display:inline;
+        font-size:22px;
+        color:#d9d9d9;
+      }
+    }
+  }
+
+}
+
+#thanks{
+  margin-left:30%;
+}
+
+body.namespace-contacts{
+  
+  .contact-icon{
+    display :none; 
+     }
+  
+}
+body.namespace-action-resume{
+ 
+  #container{
+  #main {
+    padding-bottom:80px;
+  overflow: hidden;
+  margin: 80px 160px 80px 160px;
+  }
+  #references{  
+    margin-top:40px;
+    color:red;
+    text-align:center;
+    }
+    h3{
+      color:#b23021;
+    }
+    #resume-header{
+      h1{
+      color:#b23021;
+    }
+    }
+  }
+ }
+ #work-history{
+    a{
+      text-decoration:none;
+  }
+  li{
+    list-style:none;
+  }
+}

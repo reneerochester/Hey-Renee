@@ -1,0 +1,33 @@
+
+%section.contact
+  .inner-section-contact
+  
+    .title
+      %p Contact
+      %a.email{:href => 'mailto:contact@heyrenee.ca'} contact@heyrenee.ca
+    .errors 
+      -unless @contact.errors.blank?
+        -Rails.logger.debug y @contact.errors
+        - @contact.errors.each do |error, message|
+          .error
+            .inner-error
+              .error-name= error
+              .error-message= message
+        
+    .content
+      = form_for @contact do |f| 
+        .bh-field.bh-textfield
+          .bh-describe Full Name
+          .bh-request= f.text_field :name, :placeholder=> "Enter full name..."
+        
+        .bh-field.bh-textfield
+          .bh-describe Email Address
+          .bh-request= f.text_field :email, :placeholder => "Enter email address..."
+        
+        .bh-field.bh-textarea
+          .bh-describe Description
+          .bh-request= f.text_area :description, :placeholder => "Please Provide a brief outline of your project requirements..."
+      
+        .bh-field.bh-actions
+          .bh-describe
+          .bh-request= f.submit "Send Message", :class => 'send_message'

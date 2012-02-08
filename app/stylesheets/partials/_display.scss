@@ -1,0 +1,26 @@
+#meet-and-greet{
+
+  .content{
+    margin-top:16px;
+
+  }
+  .title{
+    font-family:Trebuchet MS;
+  }
+}
+.thumbnail{
+  @include border-radius(5px);
+  border:1px solid #aaa;
+  @include box-shadow(#bbb 1px 1px 5px);
+  .inner-thumbnail{
+    overflow:hidden;
+    border:5px solid #fff;
+    @include border-radius(5px);
+    img{
+      width:100%;
+      @include border-radius(5px);
+    }
+
+  }
+
+}

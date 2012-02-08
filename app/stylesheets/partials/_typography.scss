@@ -1,0 +1,14 @@
+h2{
+  font-size:20px;
+  font-weight:normal;
+  color:#333333;
+}
+
+.namespace-action-resume{
+  ul{
+    padding-left:20px;
+  }
+  a{
+    color:adjust-saturation(adjust-lightness(#756276, -10), 30);;
+  }
+}

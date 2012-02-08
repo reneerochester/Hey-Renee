@@ -1,0 +1,75 @@
+section.contact{
+
+  .bh-describe{
+    color:#b29ab4;
+    margin-top:20px;
+    margin-bottom:5px;
+  }
+  .bh-field{
+    margin-bottom:10px;
+  }
+  .bh-textarea{
+    textarea{
+      height:150px;
+      width:390px;
+      background:transparent;
+      color:#d1b6d3;
+      @include border-radius(5px);
+      border:2px solid #7f6c81;
+      outline:0;
+      padding:5px;
+    }
+  }
+  .bh-textfield{
+    input{
+      width:220px;
+      @include border-radius(5px);
+      border:2px solid #7f6c81;
+      background:transparent;
+      outline:0;
+      padding:5px;
+      color:#d1b6d3;
+      font:arial;
+      font-size:13px;
+    }
+  }
+  .bh-actions{
+    padding-top:10px;
+    padding-bottom:40px;
+    margin-bottom:0px;
+  }
+  textarea::-webkit-input-placeholder,
+  input::-webkit-input-placeholder {
+    color:#c1b9c2;
+  }
+  textarea:-moz-placeholder,
+  input:-moz-placeholder {
+    color:#c1b9c2;
+  }
+  .errors{
+    margin-bottom:20px;
+    overflow:auto;
+    .inner-error{
+      margin-top:10px;
+      margin-bottom:10px;
+      background:#e2e2e2;
+      padding:10px;
+      float:left;
+      overflow:auto;
+      margin-right:10px;
+      @include border-radius(5px);
+      border:1px solid #fff;
+
+      .error-name{
+        color:#333;
+        float:left;
+        margin-right:5px;
+      }
+      .error-message{
+        color:#b23021;
+        float:left;
+        font-weight:bold;
+      }
+    }
+  } 
+}

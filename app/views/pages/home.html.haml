@@ -1,0 +1,28 @@
+#portfolio
+  .title
+    %h2 Recent Work
+
+  #slideshow
+    .inner-slideshow
+      .slides_container
+        = link_to image_tag( 'slide-03.jpg'), 'http://www.explorationfitness.com', :target =>"_blank"
+        = link_to image_tag( 'slide-01.jpg'), 'http://www.mtbonfestival.com', :target =>"_blank"
+        = link_to image_tag( 'slide-02.jpg'), 'http://www.petexpertise.com', :target =>"_blank"
+
+- content_for :aside_main do
+  #meet-and-greet
+    .title
+      %h2 About
+
+    .thumbnail
+      .inner-thumbnail= image_tag("reee-pic2.jpg")
+      
+    .content
+      %strong Renee Rochester
+      is a Ruby on Rails
+      %strong Developer
+      who uses <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>jQuery</strong> to add interactivity and style to her websites.
+      %p She will work with you to build an engaging and informative experience for your visitors.
+      
+- content_for :after_main do 
+  = render 'contact'

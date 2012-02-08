@@ -1,0 +1,69 @@
+/* Import Config and Helpers */
+@import "core/initalize";
+
+$width:555px;
+$height:320px;
+
+.slides_container {
+  width:$width;
+  height:$height;
+
+}
+.slides_container div {
+  width:$width;
+  height:$height;
+  display:block;
+}
+
+
+#slideshow{
+  width:$width;
+  @include border-radius(5px);
+  border:1px solid #aaa;
+  @include box-shadow(#bbb 1px 1px 5px);
+  .inner-slideshow{
+    border:5px solid #fff;
+    @include border-radius(5px);
+    overflow:hidden;
+    padding:1px;
+    background:#666;
+    .slides_container{
+      width:100%;
+      @include border-radius(5px);
+    }
+    img{
+      width:100%;
+      @include border-radius(5px);
+    }
+  }
+}
+
+
+#slideshow{
+  position:relative;
+
+  a.prev{
+    position:absolute;
+    display:block;
+    left:-18px;
+    top:130px;
+    z-index:800;
+    background:image-url('prev-button.png') no-repeat;
+    text-indent:-9999px;
+    height:60px;
+    width:45px;
+  }
+  a.next{
+    display:block;
+    position:absolute;
+    right:-34px;
+    top:130px;
+    z-index:800;
+    background:image-url('next-button.png') no-repeat;
+    text-indent:-9999px;
+    height:60px;
+    width:45px;
+    overflow:visible;
+  }
+}
+
